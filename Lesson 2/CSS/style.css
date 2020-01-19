@@ -1,0 +1,70 @@
+footer, header {
+    background-color: blue;
+    padding: 1em;
+    color:white;
+    border-radius: 25px; 
+}
+footer {
+    text-align: center;
+    padding-top: .001em;
+    padding-bottom: 1em;
+    color: black;
+}
+.snip {
+    width: 90%;
+    box-shadow: 0 0 30px  black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+.item {
+    background-color: gray;
+    margin: 1em;
+    margin-left: .5em;
+    margin-right: .5em;
+    border-radius: 15px;   
+}
+.itemHeader {
+    background-color: blue;    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: .01em;
+}
+main {   
+    display: grid;
+    grid-template-columns: 1fr;
+}
+h1 {
+    
+    font-size: 2.5em;
+    margin-top: .05em;
+    margin-bottom: 0em;
+    font-weight: 200;
+    text-align: center;
+}
+h2 {
+    font-size: 1em;
+    text-align: center;
+    margin: 0;    
+}
+h3 {
+    font-size: 1.5em;
+    margin-left: .5em;
+    margin-top: .25em;
+    margin-bottom: .25em;
+    color: white;
+}    
+h4 {
+    margin-left: .5em;
+    margin-bottom: .5em;
+    font-size: 1.5em;
+    margin-top: .5em;
+}
+p {
+    margin-left: .75em;
+}
+body {
+    width: 97%;
+    margin: 1em auto;     
+}

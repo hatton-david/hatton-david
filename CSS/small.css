@@ -1,0 +1,28 @@
+header, footer {
+    background-color: blue;
+    max-width: 750px;
+    padding: 10px;
+    border-radius: 10px;
+}
+header {
+    background-color: blue;
+    text-align: center;
+    height: 100px;
+}
+img {
+    background-color: blue;
+    float: right;
+    height: 225px;
+    box-shadow: 0 0 30px  black;
+    border-radius: 0 10px 0 0;
+}
+
+footer {
+    background-color: blue;
+    text-align: center;
+    padding: 3px;
+}
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
