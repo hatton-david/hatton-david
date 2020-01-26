@@ -1,3 +1,7 @@
+body {
+    Max-width: 600px;
+    Margin:auto;
+}
 header, footer {
     background-color: blue;
     max-width: 750px;
