@@ -1,6 +1,6 @@
 body {
     Margin:auto;
-    width: 90%;
+    width: 85%;
     padding: .5em;
 }
 header {
@@ -59,7 +59,8 @@ nav {
 }
 .navigation {
 	list-style: none;
-	padding: 0em;
+    padding: 0em;
+    width: 100%;
 }
 .navigation li:first-child {
 	display: block;
@@ -83,6 +84,21 @@ nav {
 .responsive li {
 	display: block;
 }
-
+.summary p, h2 {
+    color: whitesmoke;
+}
+.summary {
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+    position: absolute;
+    float: left;
+    border-radius: 15px; 
+    top: 350px;
+    margin-left: 350px;
+}
+#bbqFamily {
+    width: 65%;
+    border-radius: 15px;
+    border-style: solid
+}
 
 

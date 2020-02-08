@@ -5,9 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/large.css">
-    <link rel="stylesheet" href="CSS/medium.css">
     <link rel="stylesheet" href="CSS/small.css">
+    <link rel="stylesheet" href="CSS/medium.css">
   </head>
   
   <body>
@@ -21,21 +20,31 @@
 
     <nav>
         <ul class="navigation">
-            <li><a class="ham" href="#">&#9776; Menu</a></li>
-            <li><a href="">Home</a></li>
-            <li><a href="">Preston</a></li>
-            <li><a href="">Soda Spring</a></li>
-            <li><a href="">Fish Haven</a></li>
-            <li><a href="">Storm Center</a></li>
-            <li><a href="">Gallery</a></li>
+            <li><a class="ham">&#9776; Menu</a></li>
+            <li><a href="#Top">Home</a></li>
+            <li><a href="#Top">Preston</a></li>
+            <li><a href="#Top">Soda Spring</a></li>
+            <li><a href="#Top">Fish Haven</a></li>
+            <li><a href="#Top">Storm Center</a></li>
+            <li><a href="#Top">Gallery</a></li>
         </ul>
     </nav>
 <main>
     <div class="content">
         <h3>Preston Idaho</h3>
-        <div class="contentBox">
-            <h4>Weather Summary</h4>
+        <div>
+            <div class="summary">
+                <h2>Weather Summary</h2>
+            <p>Current: <span id="current">Partially Cloudy</span></p>
+            <p>Temperature: <span id="temperature">__ºF</span></p>
+            <p>Wind Chill: <span id="windchill">__ºF</span></p>
+            <p>Humidity: <span id="humidity">__%</span></p>
+            <p>Wind Speed: <span id="windspeed">___ mph</span></p>
+            </div>
+            
+            <img id="bbqFamily" src="Images/fire-4560480_1920.jpg" alt="BBQ">
         </div>
+        
         <div class="contentBox">
             <h4>5 Day Forecast</h4>
         </div>

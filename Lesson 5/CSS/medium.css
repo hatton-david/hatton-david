@@ -8,10 +8,10 @@
 	}
 	.navigation li a {
 		color: red;
-		text-align: center;
 	}
 	
 	.navigation li:first-child {
 		display: none;
 	}
 }
+
