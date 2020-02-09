@@ -136,6 +136,7 @@ nav {
     }
     .contactInfo {
         display: block;
+        text-align: center;
     }
     #banner {
         background-color:black;
@@ -145,6 +146,9 @@ nav {
         padding: 1.5em;
         border-radius: .5em;
         font-size: 1.2em;
+    }
+    #contactHead {
+        text-align: center;
     }
     
 
