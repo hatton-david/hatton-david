@@ -14,5 +14,24 @@
 	.navigation li:first-child {
 		display: none;
 	}
+	table, th, td {
+		border: 1px solid black;
+		text-align: center;
+	}
+	.forcastTable {
+		width: 75%;
+    	background-color: whitesmoke;
+    	margin-left: 30px;
+    	margin-top: 10px;
+	}
+	#forcastBox {
+		display: flex;
+	}
+	#fiveForcast {
+		margin-left: 15px;
+	}
+	.map {
+		display: block;
+	}
 }
 
