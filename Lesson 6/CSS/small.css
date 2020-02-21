@@ -97,8 +97,13 @@ nav {
     left: 25px;
     background-color: grey;
 }
-.myPhoto {
+.sky {
     width: 100%;
+}
+.frame {
+    width: 100%; 
+}
+.myPhoto {
     border-radius: 15px;
     border-style: solid;
 }
