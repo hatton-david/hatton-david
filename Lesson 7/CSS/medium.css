@@ -1,0 +1,25 @@
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: red;
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+    }
+    .grid {
+        text-align: center;
+    }
+    .blocks {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-gap: 10px;
+    }
+}
