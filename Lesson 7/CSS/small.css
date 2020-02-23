@@ -86,16 +86,17 @@ nav {
 .blocks {
     display: grid;
     grid-template-columns:1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
     width: 100%;
 }
 img {
     filter: blur(0em);
-    transition: filter 0.5s;
-    max-width: 100%;   
+    transition: filter 2s;
+    max-width: 100%; 
+    padding: 15px; 
 }
 img[data-src] {
-    filter: blur(.05em);   
+    filter: blur(1px);   
 }
 
 
