@@ -1,0 +1,33 @@
+@media only screen and (min-width: 600px) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: red;
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
+	table, th, td {
+		border: 1px solid black;
+		text-align: center;
+	}
+	h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 1.1em;
+    }
+    div.towns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+    }  
+}
+
