@@ -17,6 +17,7 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
     towns.forEach(town => {
       let square = document.createElement('section');
+      let h2Name = document.createElement('h2');
       let h2 = document.createElement('h2');
       let h2One = document.createElement('h2');
       let h2Two = document.createElement('h2');
@@ -27,13 +28,14 @@ fetch(requestURL)
         let pop = `Population: ${town.currentPopulation}`;
         let rfall = `Annual Rainfall: ${town.averageRainfall}`;
 
-      h2.textContent = townname;
+      h2Name.textContent = townname;
       image.setAttribute('src', town.photo);
       image.setAttribute('alt', townname);
       h2.textContent = founded;
       h2One.textContent = pop;
       h2Two.textContent = rfall;
 
+      square.appendChild(h2Name);
       square.appendChild(h2);
       square.appendChild(h2One);
       square.appendChild(h2Two);
