@@ -14,34 +14,42 @@ fetch(requestURL)
     return response.json();
   })
     .then(function (jsonObject) {
+        console.table(jsonObject);
+
     const towns = jsonObject['towns'];
-    towns.forEach(town => {
+
+    for (let i = 0; i < towns.length; i++ ) {
+
+        if (towns[i].name == "Preston" || towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven")
+        {
+
       let square = document.createElement('section');
-      let h2Name = document.createElement('h2');
       let h2 = document.createElement('h2');
-      let h2One = document.createElement('h2');
-      let h2Two = document.createElement('h2');
+      let h3 = document.createElement('h3');
+      let year = document.createElement('p');
+      let population = document.createElement('p');
+      let rainfall = document.createElement('p')
       let image = document.createElement('img');
       
-        let townname = `${town.name}`; 
-        let founded = `Year Founded: ${town.yearFounded}`; 
-        let pop = `Population: ${town.currentPopulation}`;
-        let rfall = `Annual Rainfall: ${town.averageRainfall}`;
+        h2.textContent = towns[i].name; 
+        h3.textContent = towns[i].motto; 
+        year.textContent = "Year Founded: " + towns[i].yearFounded; 
+        population.textContent = "Population: " + towns[i].currentPopulation;
+        rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
 
-      h2Name.textContent = townname;
-      image.setAttribute('src', town.photo);
-      image.setAttribute('alt', townname);
-      h2.textContent = founded;
-      h2One.textContent = pop;
-      h2Two.textContent = rfall;
-
-      square.appendChild(h2Name);
+      
+      image.setAttribute('src', "images/" + towns[i].photo);
+      image.setAttribute('alt', "picture of: " + h2.textContent);
+      
       square.appendChild(h2);
-      square.appendChild(h2One);
-      square.appendChild(h2Two);
-      square.appendChild(image);
+      square.appendChild(h3);
+      square.appendChild(p);
+      square.appendChild(p);
+      square.appendChild(img);
 
-      document.querySelector('.towns').appendChild(square);
+    document.querySelector('div.towns').appendChild(square);
+    }
+}
+    
 
-    });
 });
