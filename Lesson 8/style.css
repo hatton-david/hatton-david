@@ -21,6 +21,9 @@ footer {
     text-align: center;
     padding: 10px;
 }
+#active {
+    background-color: whitesmoke;
+} 
 h1, h2 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
