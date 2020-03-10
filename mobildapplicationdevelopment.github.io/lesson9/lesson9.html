@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>David Hatton Home Page CIT230</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lesson9.css"> 
+    <link rel="stylesheet" href="lesson9medium.css"> 
+    <link rel="stylesheet" href="lesson9large.css"> 
+  </head>
+  
+  <body>  
+    <header>
+      <div>
+        <h1>Lesson 9</h1>
+        <h2>Standard JavaScript Events Including those for Mobile Devices ( Ex. onTouchBegin, onLoad, etc.) and Animation and Transition Events</h2>
+      </div>
+        
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/index.html">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson1/lesson1.html">Lesson 1</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson2/lesson2.html">Lesson 2</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson3/lesson3.html">Lesson 3</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson4/lesson4.html">Lesson 4</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson5/lesson5.html">Lesson 5</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson6/lesson6.html">Lesson 6</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson7/lesson7.html">Lesson 7</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson8/lesson8.html">Lesson 8</a></li>
+            <li><a id="active" href="#Top">Lesson 9</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson10/lesson10.html">Lesson 10</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson11/lesson11.html">Lesson 11</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson12/lesson12.html">Lesson 12</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson13/lesson13.html">Lesson 13</a></li>
+        </ul>
+    </nav> 
+
+
+      <div class="inside">
+        <p>Click the button to display the date.</p>
+        <button onclick="displayDate()">What time is it?</button>
+        <p id="demo"></p>
+          
+          <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://cdn.pixabay.com/photo/2016/04/02/19/40/moon-1303512_960_720.png" alt="moon" width="200" height="200">
+        
+        <h3>Touch events are events triggered when usinga mobile device.</h3> <h3>There are 4 basic touch events:</h3>
+        <ul>
+          <li>touchstart - a touch event has started</li>
+        <li>touchend - a touch event has ended</li>
+        <li>touchmove - the finger moves over the surface</li>
+        <li>touchcancel - the touch event has been cancelled.</li>
+          </ul>
+         </div>
+    <footer>
+         <p>&copy; 2020 David Hatton</p>
+    </footer>
+    <script src="lesson9.js"></script>
+  </body>
+</html>
