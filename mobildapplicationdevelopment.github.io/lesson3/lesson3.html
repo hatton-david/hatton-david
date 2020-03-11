@@ -40,7 +40,27 @@
 
 
       <div class="inside">
-    
+        <p>JSON objects have two basic methods to deal with JSON-formatted data. Parse and stringify. </p>
+
+        <h2>JSON Parse</h2>
+        
+        <p>When you recieve data from a web server, it will always come in the form of a string. A common use of JSON is to assist in that data exchange to and from a web server. You can use JSON.parse(), to take that data and transform it into a JavaScript object to be used in your program.</p>
+          
+        <p>JSON.parse() takes a JSON string and transforms it into a JavaScript object. </p>
+        
+        <p>JSON Parse example</p>
+        
+        <button type="button" onclick="jsonObject()">Click Me!</button>
+        <p id="demo"></p>
+        
+        
+        <h2>JSON Stringify</h2>
+        <p>JSON.stringify(), however does the opposite. It takes a JavaScript object and transforms it into a JSON string.</p>
+        
+        <p>JSON stringify example</p>
+        <button type="button" onclick="jsonString()">Click Me!</button>
+        <p id="demoTwo"></p>
+        
          </div>
     <footer>
          <p>&copy; 2020 David Hatton</p>

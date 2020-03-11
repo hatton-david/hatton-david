@@ -40,7 +40,49 @@
 
 
       <div class="inside">
-    
+        <h2>AJAX</h2>
+<p>AJAX stands for Asynchronous JavaScript and XML. AJAXJAX uses one object that comes with JavaScript. The object lets you load an external file and add its content to your webpage.</p>
+
+
+One way we can use AJAX in an XMLHttpRequest. You can do many things with an XMLHttpRequest. Fir example.
+<ul>
+<li>Update a web page without reloading the page</li>
+<li>Request data from a server after the page has loaded</li>
+<li>Receive data from a server after the page has loaded</li>
+<li>Send data to a server in the background</li>
+</ul>
+<h2>For example, you can get the date when the page was last modified</h2>
+<button onclick="loadXMLDoc('lesson4.html')">Last Modified</button>
+
+<p id="demo"></p><br><br>
+
+<p>With AJAX you can also access external files that have been uploaded to the internet, from your webpage.</p>
+
+<h2>JSON</h2>
+<p>JSON stands for JavaScript Object Notation. It is a way to store data in a format that other languages can easily read. Here is an example of various strings in JSON format</p>
+<br><br> 
+
+
+{"display": "Google",<br> 
+"url": "https://www.google.com"},<br> 
+{"display": "Facebook",<br> 
+"url": "https://www.facebook.com"},<br> 
+{"display": "Twitter",<br> 
+"url": "https://www.twitter.com"},<br> 
+{"display": "Instagram",<br> 
+"url": "https://www.instagram.com"},<br> 
+{"display": "Yahoo",<br> 
+"url": "https://www.yahoo.com"}<br> 
+
+</p>
+<p>Here is an example of how AJAX can be used to fetch a JSON file. The JSON data is stored in the test.json file.</p><br><br> 
+
+<p>I will use Javascript, JSON and JSON parse to fetch the data from that URL. It will display the website name, and make it a clickable link to that website.</p><br> 
+
+
+<button onclick="getData()">Click me</button><br><br>
+<div id="data"></div><br><br><br>
+
          </div>
     <footer>
          <p>&copy; 2020 David Hatton</p>
