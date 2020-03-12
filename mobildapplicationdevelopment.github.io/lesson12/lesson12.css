@@ -5,10 +5,7 @@ html {
     Margin:auto;
     max-width: 95%
   }
-  .inside {
-    width: 75%;
-    Margin:auto;
-  }
+  
   nav {
 	margin: 0 auto;
     background-color: #92b7fe;
@@ -72,8 +69,7 @@ html {
   ul {
     text-align: left;
   }
-
-  div {
+  .inside {
     width: 500px;
     text-align: center;
     border: solid 1px;

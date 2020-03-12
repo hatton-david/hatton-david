@@ -7,7 +7,8 @@ html {
   }
   .inside {
     width: 75%;
-    Margin:auto;
+    Margin: 0 auto;
+    height: 600px;
   }
   nav {
 	margin: 0 auto;
@@ -102,7 +103,7 @@ html {
     transition-timing-function: ease-in-out;
   }
   
-  div:hover {
+  div.x:hover {
     height: 300px;
   }
   

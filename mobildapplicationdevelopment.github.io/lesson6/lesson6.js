@@ -1,4 +1,4 @@
-const hambutton = document.querySelector(".ham");
+const hambutton = document.querySelector(".menu");
 hambutton.addEventListener("click", toggleMenu, false);
 
 function toggleMenu() {
