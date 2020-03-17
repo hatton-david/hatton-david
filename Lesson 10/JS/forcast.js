@@ -1,6 +1,6 @@
-const fURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=e5471d9c45ee420f0d1bffd165f48ae8&units=imperial";
+const requestURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=5013c3a4f5ead239b175bb0335026653&units=imperial"
 
-fetch(fURL)
+fetch(requestURL)
     .then((response) => response.json())
     .then((jsObject) => {
         console.log(jsObject);
