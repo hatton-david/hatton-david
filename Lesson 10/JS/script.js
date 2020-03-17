@@ -29,12 +29,7 @@ fetch(apiURL)
     currentTemp.textContent = jsObject.main.temp;
     windSpeed.textContent = jsObject.wind.speed;
     humidity.textContent = jsObject.main.humidity;
-
-
-
-
-
-    
+  
   });
 
  
