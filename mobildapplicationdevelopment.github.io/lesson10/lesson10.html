@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>David Hatton Home Page CIT230</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lesson10.css"> 
+    <link rel="stylesheet" href="lesson10medium.css"> 
+    <link rel="stylesheet" href="lesson10large.css"> 
+  </head>
+  
+  <body>  
+    <header>
+      <div>
+        <h1>Lesson 10</h1>
+        <h2>HTML5 Tags - Video, Audio, and Canvas</h2>
+      </div>
+        
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="menu" href="#">&#9776; Menu</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/index.html">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson1/lesson1.html">Lesson 1</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson2/lesson2.html">Lesson 2</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson3/lesson3.html">Lesson 3</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson4/lesson4.html">Lesson 4</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson5/lesson5.html">Lesson 5</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson6/lesson6.html">Lesson 6</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson7/lesson7.html">Lesson 7</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson8/lesson8.html">Lesson 8</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson9/lesson9.html">Lesson 9</a></li>
+            <li><a id="active" href="#Top">Lesson 10</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson11/lesson11.html">Lesson 11</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson12/lesson12.html">Lesson 12</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson13/lesson13.html">Lesson 13</a></li>
+        </ul>
+    </nav> 
+
+
+      <div class="inside">
+        <h1>The video Element</h1>
+          <p>You can embed video directly into your HTML code easily by using the 
+            "video" tag. You can specify the size of the video player using standard 
+            width and height properties. There are three types of file that are supported
+            using a video tag. they are MP4, WebM and Ogg.</p><br>
+        <video width="320" height="240" controls>
+          <source src="https://mediasrv.lds.org/media-services/GC/size/5382596480001/640/360/363000">
+        </video>
+          <h1>The Audio Element</h1>
+          <p>You can embed Audio likewise by using the 
+            "Audio" tag. The audio tag supports MP3, Wav, and Ogg.</p><br>
+         <audio controls>
+            <source src="https://media2.ldscdn.org/assets/general-conference/april-2017-general-conference/2017-04-5030-s-mark-palmer-64k-eng.mp3?lang=eng&download=true">
+          </audio>
+        
+          <h1>Canvas</h1>
+          <p>Canvas is used to draw graphics on a webpage using JavaScript.
+          You can add canvas to your page using the "canvas" tag.</p>
+          <p>Here is an example of drawing a circle in a box with Canvas</p>
+         <canvas id="showBox" width="200" height="200"
+        style="border:1px solid #d3d3d3;">
+                    </canvas>
+          <p><button onclick="showBox()">Try it</button></p>
+         </div>
+    <footer>
+         <p>&copy; 2020 David Hatton</p>
+    </footer>
+    <script src="lesson10.js"></script>
+  </body>
+</html>
