@@ -29,8 +29,10 @@ fetch(apiURL)
     currentTemp.textContent = jsObject.main.temp;
     windSpeed.textContent = jsObject.wind.speed;
     humidity.textContent = jsObject.main.humidity;
-  
-    var t = document.getElementById("temperature").innerHTML;
+
+  });
+
+  var t = document.getElementById("temperature").innerHTML;
     var ws = document.getElementById("windspeed").innerHTML;
     var speedF = Math.pow(ws, 0.16);
     var windChill = Math.round(35.74 + (0.6215 * t) - (35.75 * speedF) + (0.4275 * t * speedF));
@@ -41,8 +43,3 @@ fetch(apiURL)
     else {
         document.getElementById('windchill').textContent = ("N/A");
     }
-
-
-  });
-
- 
