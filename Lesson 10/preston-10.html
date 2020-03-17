@@ -38,19 +38,17 @@
 <main>
     <div class="content">
         <h3>Preston Idaho</h3>
-        <div class="content">
+    </div>
         <div id="shouldYou">
             <img id="bbqFamily" src="Images/sawtooth-mountains-4907031_1920.jpg" alt="BBQ">
             <div class="summary">
                 <h2>Should you BBQ?</h2>
             <p>Currently: <span id="current"></span></p>
             <p>Temperature: <span id="temperature"></span>&deg;F</p>
-            <p>Wind Chill: <span id="windchill"></span>&deg;F</p>
+            <p>Wind Chill: <span id="windchill"></span></p>
             <p>Humidity: <span id="humidity"></span>%</p>
             <p>Wind Speed: <span id="windspeed"></span> mph</p>
-            </div>
-            
-            
+            </div>  
         </div>
     </div>
         
@@ -58,25 +56,25 @@
             <h4 id="fiveForcast">5 Day Forecast</h4>
                 <table class="forcastTable">
                     <tr>
-                        <th id="day0"></th>
-                        <th id="day1"></th>
-                        <th id="day2"></th>
-                        <th id="day3"></th>
-                        <th id="day4"></th>
+                        <td id="day1"></td>
+                        <td id="day2"></td>
+                        <td id="day3"></td>
+                        <td id="day4"></td>
+                        <td id="day5"></td>
+                    </tr>
+                      <tr>
+                          <td><img src="" alt="" id="imagesrc1"></td>
+                          <td><img src="" alt="" id="imagesrc2"></td>
+                          <td><img src="" alt="" id="imagesrc3"></td>
+                          <td><img src="" alt="" id="imagesrc4"></td>
+                          <td><img src="" alt="" id="imagesrc5"></td>
                       </tr>
                       <tr>
-                          <td><img id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></td>
-                          <td><img id="img1" src="" alt=""></td>
-                          <td><img id="img2" src="" alt=""></td>
-                          <td><img id="img3"  src="" alt=""></td>
-                          <td><img id="img4" src="" alt=""></td>
-                      </tr>
-                      <tr>
-                        <td id="temp0">&#0176; </td>
-                        <td id="temp1">&#0176;</td>
-                        <td id="temp2">&#0176;</td>
-                        <td id="temp3">&#0176; </td>
-                        <td id="temp4">&#0176;</td>
+                        <td><span id="tem1"></span>&deg;</td>
+                        <td><span id="tem2"></span>&deg;</td>
+                        <td><span id="tem3"></span>&deg;</td>
+                        <td><span id="tem4"></span>&deg;</td>
+                        <td><span id="tem5"></span>&deg;</td>
                       </tr>
                 </table>
         </div>
@@ -119,6 +117,8 @@
         <p><span id="datetime"></span></p>
     </footer>
     <script src="JS/script.js"></script>
+    <script src="JS/forcast.js"></script>
+    <script src="JS/windchill.js"></script>
 
   </body>
 </html>

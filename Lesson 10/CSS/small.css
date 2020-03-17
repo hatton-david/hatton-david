@@ -4,7 +4,7 @@ body {
     padding: .5em;
 }
 header {
-    background-color: #CC0000;
+    background-color: #C44F4F;
     padding: 10px;
     text-align: center;
     border-radius: 5px;
@@ -27,7 +27,7 @@ header {
     padding: 0;
 }
 footer {
-    background-color: #CC0000;
+    background-color: #C44F4F;
     text-align: center;
     padding: 3px;
     border-radius: 5px;
@@ -148,6 +148,17 @@ nav {
         font-size: 1.2em;
     }
     #contactHead {
+        text-align: center;
+    }
+    .flex {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .col {
+        flex: 1 1 100%;
+        background-color: #883333c7;
+        font-size: 13px;
         text-align: center;
     }
     
