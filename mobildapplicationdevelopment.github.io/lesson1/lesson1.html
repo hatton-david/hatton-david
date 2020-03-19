@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>David Hatton Home Page CIT230</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lesson1.css"> 
+    <link rel="stylesheet" href="lesson1medium.css"> 
+    <link rel="stylesheet" href="lesson1large.css"> 
+  </head>
+  
+  <body>  
+    <header>
+      <div>
+        <h1>Lesson 1</h1>
+        <h2>JavaScript Loops, Conditional Statements, Functions, Variables, Parameters, Arrays, Associative Arrays</h2>
+      </div>
+        
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="menu" href="#">&#9776; Menu</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/index.html">Home</a></li>
+            <li><a id="active" href="#Top">Lesson 1</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson2/lesson2.html">Lesson 2</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson3/lesson3.html">Lesson 3</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson4/lesson4.html">Lesson 4</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson5/lesson5.html">Lesson 5</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson6/lesson6.html">Lesson 6</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson7/lesson7.html">Lesson 7</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson8/lesson8.html">Lesson 8</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson9/lesson9.html">Lesson 9</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson10/lesson10.html">Lesson 10</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson11/lesson11.html">Lesson 11</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson12/lesson12.html">Lesson 12</a></li>
+            <li><a href="http://127.0.0.1:5500/mobildapplicationdevelopment.github.io/lesson13/lesson13.html">Lesson 13</a></li>
+        </ul>
+    </nav> 
+
+
+      <div class="inside">
+      <div>
+        <h1>
+          Variables and Parameters
+        </h1>
+          <h2>Variables</h2> 
+          <h3>A variable is a container that we can use to store different types 
+          of data. Sometimes its numbers or text, or whatever else we would like. We can 
+          create a variable with this format.</h3>
+          <h3>var variableName = "value";</h3>
+          <h3> We use var so that the computer knows we are creating that new container. The = tells us
+          what is in the container.</h3>
+          <h2>Parameters</h2> 
+          <h3>Parameters are variables listed inside the function that define a part of the 
+            function itself. The format looks something like this.</h3>
+          <h3>function argCheck(parameter1, parameter2, parameter3)</h3><br><br>
+        <h1>
+          Loops and Functions
+        </h1>
+        <h3>
+          Loops can be used when you want to run the same block of 
+          code over a number of times. I could, for example, create a program that counts from 1 - 10
+          like this.<br>
+        
+          <ul style="list-style-type:none;">
+            <li>document.write("1");</li>
+            <li>document.write("2");</li> 
+            <li>document.write("3");</li> 
+            <li>document.write("4");</li>
+            <li>document.write("5");</li> 
+            <li>document.write("6");</li> 
+            <li>document.write("7");</li> 
+            <li>document.write("8");</li> 
+            <li>document.write("9");</li> 
+            <li>document.write("10");</li> 
+          </ul>
+          
+          Which would then display<br><br>
+          12345678910<br><br>
+          
+          but this is time consuming, and there is a much better way. We can use a for loop.
+          Here is an example of using a for loop to do the same thing.<br><br>
+          
+        </h3>
+        
+      </div>
+       <section>   
+          <div class="counter">
+            <button onclick="myFunction()">Click here to count to 10</button>
+            <div><p id="demo"></p></div>
+          </div>
+         
+         <h3>
+           Now how did we do that? We had to first create a JavaScript function.
+           We do this by creating a function and giving it a name, like this.<br><br>
+           <em>function counter( )</em><br><br>
+           the word "function" creates the function, and "counter" is the name I have chosen. now its time to add the for loop.<br><br>
+           <em>for (i = 1; i <= 10; i++){}</em><br><br>
+           since it is a for loop, we always start it with the word for. Inside the brackets we have 3 statements. each is separated
+           by a semicolon.<br><br> In my example, the first statement creates a variable to reference before the loop
+           starts. i is equal to 1.<br><br> The second statement sets the conditions for the loop to continue to run. 
+           In my example it states if i is less than or equal to 10 continue to run the loop.<br><br> The third statement
+           increases the value of i by one each time the loop is executed. So my loop will run as follows. i is equal to 1, if i is 
+           less than or equal to 10 continue the loop, and add 1 to i making it two. It will continue to run the 
+           loop until i reaches 11. When i is 11 it no longer meets the criteria for the second statement and so the loop stops.<br><br>
+           We can now use the "document.write(i)" to write out each step of the loop. We can call the function with the click of the button
+           and it displays 1 2 3 4 5 6 7 8 9 10.
+         </h3>
+      </section> 
+    
+    <div>
+      
+    </div>
+         <section>
+             <h1>
+               Conditional Statements
+             </h1>
+           <div>
+             <h3>
+             When creating certain typs of programs, you will need the program to behave differently
+             depending on the situation. This is where conditional statement come into play. There
+             are 4 types of conditions you can use in your conditional statements.
+             
+              <ul>
+                <li>if</li>
+                <li>else</li> 
+                <li>else if</li> 
+                <li>switch</li>
+              </ul>
+             
+              We use "if" statements to perform an action if certain conditions are met. The function below
+               will display text "if" the day of the of the week happens to be Monday. 
+             </h3>
+             
+             <div class="counter">
+              <button onclick="myFunctionTwo()">Is Today Monday?</button>
+              <p id="demoTwo"></p>
+               </div>
+               <h3>
+                 That function might look something like this.
+               </h3>
+                   <h3><em>function myFunctionTwo() {<br>
+                    var day = new Date();<br>
+                    var monday = day.getDay()<br>
+                    if (monday = 1){<br>
+                    document.getElementById("demoTwo").innerHTML = "Today is Monday.";<br>
+                        }<br>
+                  }  </em>
+               </h3>
+            <h3> 
+               The function uses the method getDay() to display the current day of the week represented as a number.
+               0 is Sunday, 1 is Monday and so on. The "if" statement <em>if (monday = 1)</em> says that
+               if the variable monday returns 1, then something needs to happen. in this case it displayed 
+               the text "Today is Monday."<br><br>
+              But what if it isnt Monday? Nothing will happen. This is where else statements come in. They 
+              allow us to have an alternative action if the conditions are not met.<br><br>
+              Lets look at the same code with an else statement. 
+             </h3>
+             <div class="counter">
+              <button onclick="myFunctionThree()">Is Today Monday?</button>
+              <p id="demoThree"></p>
+               </div>
+             <h3>
+               In this function, if the condition is met it will act as before, displaying "Today is Monday." 
+              If the condition is not met the "else" statement says something else should happen. In this case 
+               it displayed the text "Today is not Monday.<br><br>
+               here is the code.<br><br>
+               <em>function myFunctionThree() {<br>
+                var day = new Date();<br>
+                var monday = day.getDay()<br>
+                var whatDay;<br>
+                if (monday == 1) {<br>
+                whatDay = "Today is Monday.";<br>
+                }
+                 else {  <br>
+                  whatDay = "Today is not Monday.";<br>
+                }
+                  document.getElementById("demoThree").innerHTML = whatDay;<br>
+                 }</em>
+             </h3>
+             <h3>
+               The "else if" statement gives a second condition that the function will check. If the first
+               condition is false, it moves on to the second condition. If the second condition is true then
+               it has its own rules to follow. If the second condition is false, it then defaults to the else 
+               statement.
+             </h3>
+             <h3>
+               Below, the "else if" statement states that if the day is either Tuesday or Wednesday it will
+               say "Today is Tuesday or Wednesday. I'm not sure which.".
+             </h3>
+             <div class="counter">
+              <button onclick="myFunctionFour()">Is Today Monday?</button>
+              <p id="demoFour"></p>
+               </div>
+             <h3>
+               Here is the code.<br><br>
+               if (monday == 1) {<br>
+                <em>whatDay = "Today is Monday.";<br>
+                }
+                 else if (monday == 2 || monday == 3) {  <br>
+                whatDay = "Today is Tuesday or Wednesday. I'm not sure which.";<br>
+                }
+                else {<br>
+                whatDay = "Today is not Monday, Tuesday, or Wednesday. It's some other day.";<br>
+                }
+                document.getElementById("demoFour").innerHTML = whatDay;<br>
+                }</em>
+             </h3>
+           </div>  
+         </section>
+         <section>
+         <h1>
+           Arrays and Associative Arrays
+           </h1>
+           <div>
+             <h3>
+             Arrays are a type of variable that can hold many different values. These values can be accessed
+             by using numeric indexes. These numeric indexes strangely enough do not start with the number 1,
+             but with 0, then 1 and continue on for the length of the array. Arrays can be useful if you have a 
+               list of items you need stored for future use. If you want to find a particular item contained
+               in the list you can use a loop.<br><br>
+               the structure of an array is like this.<br><br> 
+               <em>var arrayname = [firstItem, secondItem, thirdItem];</em><br><br>
+               firstItem would be index [0], secondItem index [1] and so on. You would access the individual elements
+               by using something like this<br><br><em>document.getElementById("demo").innerHTML = arrayname[0];</em><br><br> or the full array by using the 
+               array name only like this.<br><br><em>document.getElementById("demo").innerHTML = arrayname;</em><br><br>
+               You can cycle through all the values in an array by using a loop like this.
+               
+             </h3>
+             <div class="counter">
+              <button onclick="arrayItems()">Loop Items</button>
+              <p id="demoFive"></p>
+               </div>
+             <h3>
+               Here is the code.<br><br>
+              <em> function arrayItems() {<br>
+                var arrayName = ["firstItem", "secondItem", "thirdItem", "fourthItem"];<br>
+                var loop;<br>
+                for (i = 0; i < arrayName.length; i++) {<br>
+                loop += arrayName[i] + "< br>";<br>
+                }
+
+                document.getElementById("demo").innerHTML = loop;<br>
+                 }</em>
+             </h3>
+           </div>
+           <h3>Associative Arrays use names to select the items in the array instead of numbers The values are stored and recalled using objects instead of numbers. Associative arrays are not supported in JavaScript and would look something like this.</h3>
+             
+             <h3>var z = { fname: "David", mname: "Joel", lname: "Hatton"};</h3>
+         </section>
+         </div>
+    <footer>
+         <p>&copy; 2020 David Hatton</p>
+    </footer>
+    <script src="lesson1.js"></script>
+  </body>
+</html>
