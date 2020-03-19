@@ -4,6 +4,7 @@ body {
     padding: .5em;
 }
 header {
+    border: 2px solid #ff4e4e;
     background-color: #C44F4F;
     padding: 10px;
     text-align: center;
@@ -27,12 +28,15 @@ header {
     padding: 0;
 }
 footer {
+    border: 2px solid #ff4e4e;
     background-color: #C44F4F;
     text-align: center;
     padding: 3px;
     border-radius: 5px;
 }
 h3, h4, h5, h6 {
+    margin-left: 10px;
+    text-shadow: 2px 2px 5px;
     display: block;
     font-size: 1.2rem;
     font-family: Arial, sans-serif;

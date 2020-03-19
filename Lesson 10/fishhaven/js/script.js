@@ -9,7 +9,7 @@ const date = document.lastModified;
  document.getElementById("datetime").textContent = date;
 
  
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=Fish Haven&appid=5013c3a4f5ead239b175bb0335026653&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=5013c3a4f5ead239b175bb0335026653&units=imperial";
 
 fetch(apiURL)
   .then((response) => response.json())
