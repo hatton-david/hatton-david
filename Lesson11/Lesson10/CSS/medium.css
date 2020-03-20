@@ -1,0 +1,39 @@
+@media only screen and (min-width: 650px) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: red;
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
+	table, th, td {
+		border: 1px solid black;
+		text-align: center;
+	}
+	.forcastTable {
+		width: 75%;
+    	background-color: #ADD8E6;
+    	margin-left: 30px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	#forcastBox {
+		display: flex;
+	}
+	#fiveForcast {
+		margin-left: 15px;
+	}
+	.map {
+		display: block;
+		text-align: center;
+	}
+}
+

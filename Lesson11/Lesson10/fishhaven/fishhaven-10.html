@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather Site Project Planning Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+  </head>
+  
+  <body>
+
+
+    <header>
+        <div id="insideHeader">
+            <img id="burger" src="Images/burger-2916288_1920.jpg" alt="Burger">
+            <h1 id="title">BBQ Weather Guide</h1>
+        </div>
+            <h2>Check the weather, to plan your events better!</h2>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham">&#9776; Menu</a></li>
+            <li><a href="https://hatton-david.github.io/Lesson%209/index.html">Home</a></li>
+            <li><a href="https://hatton-david.github.io/Lesson%2010/preston-10.html">Preston</a></li>
+            <li><a href="hatton-david.github.io/Lesson%2010/sodaspring/sodaspring-10.html">Soda Spring</a></li>
+            <li><a id="active" href="#Top">Fish Haven</a></li>
+            <li><a href="https://hatton-david.github.io/Lesson%208/stormcenter.html">Storm Center</a></li>
+            <li><a href="#Top">Gallery</a></li>
+        </ul>
+    </nav>
+<main>
+    <div class="content">
+        <h3>Fish Haven</h3>
+    </div>
+        <div id="shouldYou">
+            <img id="bbqFamily" src="Images/sunset-952585_1920.jpg" alt="BBQ">
+            <div class="summary">
+                <h2>Should you BBQ?</h2>
+            <p>Currently: <span id="current"></span></p>
+            <p>Temperature: <span id="temperature"></span>&deg;F</p>
+            <p>Wind Chill: <span id="windchill"></span></p>
+            <p>Humidity: <span id="humidity"></span>%</p>
+            <p>Wind Speed: <span id="windspeed"></span> mph</p>
+            </div>  
+        </div>
+    
+        
+        <div class="contentBox" id="forcastBox">
+            <h4 id="fiveForcast">5 Day Forecast</h4>
+                <table class="forcastTable">
+                    <tr>
+                        <td id="day1"></td>
+                        <td id="day2"></td>
+                        <td id="day3"></td>
+                        <td id="day4"></td>
+                        <td id="day5"></td>
+                    </tr>
+                      <tr>
+                          <td><img src="#" alt="#" id="imagesrc1"></td>
+                          <td><img src="#" alt="#" id="imagesrc2"></td>
+                          <td><img src="#" alt="#" id="imagesrc3"></td>
+                          <td><img src="#" alt="#" id="imagesrc4"></td>
+                          <td><img src="#" alt="#" id="imagesrc5"></td>
+                      </tr>
+                      <tr>
+                        <td><span id="tem1"></span>&deg;</td>
+                        <td><span id="tem2"></span>&deg;</td>
+                        <td><span id="tem3"></span>&deg;</td>
+                        <td><span id="tem4"></span>&deg;</td>
+                        <td><span id="tem5"></span>&deg;</td>
+                      </tr>
+                </table>
+        </div>
+        <div class="contentBox">
+            <h4>Article</h4>
+            <div class="article">
+                <img id="articleImg" src="Images/bbq-36427_1280.png" alt="Cartoon image of a family BBQ.">
+                <p id="articleText">Fish Haven, originally named Rush Creek, is an unincorporated community 
+                    along the shores of Bear Lake in Bear Lake County, Idaho, United States. It is 4 km north 
+                    of the Utah border. Wikipedia</p>
+
+            </div>
+        </div>
+        <div class="contentBox">
+            <h4 id="contactHead">Contact Information</h4>
+            <div class="contact">
+                <div class="map">
+                    <iframe src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Fish%20Haven%2C%20ID+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=9&amp;iwloc=B&amp;output=embed" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe> 
+                <div class="contactInfo">
+                    <p>BBQ Weather Guide</p>
+                    <p>Preston, Idaho</p>
+                    <p>(555)555-5555</p>
+                    <p>contactus@bbqwg.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+    <footer>
+         <p>&copy; 2020 David Hatton | Kentucky | <a href="https://www.byui.edu/online"> BYUI Online Learning</a></p>
+        <p><span id="datetime"></span></p>
+    </footer>
+    <script src="js/forcast.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+  </body>
+</html>
