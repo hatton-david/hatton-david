@@ -33,6 +33,7 @@ footer {
     border-radius: 5px;
 }
 h3, h4, h5, h6 {
+    margin-left: 10px;
     display: block;
     font-size: 1.2rem;
     font-family: Arial, sans-serif;
@@ -160,6 +161,28 @@ nav {
         background-color: #883333c7;
         font-size: 13px;
         text-align: center;
+    }
+    .bo {
+        border-radius: 15px;
+        background-color: #ADD8E6;
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    section  {
+        border: 1px solid;
+        align-items: center;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 15px;
+    }
+    .towns {
+        border-radius: 15px;
+        background-color: whitesmoke;
+    }
+    .towns p {
+        color: black;   
     }
     
 

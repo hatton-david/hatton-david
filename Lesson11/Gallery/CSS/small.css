@@ -29,9 +29,8 @@ header {
 footer {
     background-color: #C44F4F;
     text-align: center;
-    padding: 10px;
+    padding: 3px;
     border-radius: 5px;
-    margin-top: 15px;
 }
 h3, h4, h5, h6 {
     display: block;
@@ -42,7 +41,15 @@ h1, h2 {
     text-align: center;
     color: #F5F5F5;
 }
-
+.content {
+    text-align: center;
+}
+.contentBox {
+    background-color: grey; 
+    margin: 1em;
+    border-radius: 5px;
+    border-style: solid;
+}
 p {
     font-family: "Times New Roman", Times, serif;
     color: #F5F5F5;
@@ -78,34 +85,28 @@ nav {
 .responsive li {
 	display: block;
 }
-.summary p, h2 {
-    color: whitesmoke;
+.grid {
+    margin-bottom: 70px;
+    text-align: center;
+    width: 100%;
+}
+.blocks {
+    display: grid;
+    grid-template-columns:1fr;
+    grid-gap: 20px;
+    width: 100%;
+}
+img {
+    filter: blur(0em);
+    transition: filter 2s;
+    max-width: 100%; 
+    padding: 15px; 
+}
+img[data-src] {
+    filter: blur(1px);   
 }
 
-.frame {
-    width: 100%; 
-}
-#selectR {
-    color: grey;
-}
-#comments {
-    width: 50%;
-}
-#ratingvalue {
-	margin: 0 15px;
-}
-main {
-    max-width: 50%;
-    margin: 0 auto;
-}
-.formbox {
-    text-align: center;
-    color: black;
-    text-decoration: underline;
-}
-#active {
-    background-color: whitesmoke;
-} 
+
 
 
 
