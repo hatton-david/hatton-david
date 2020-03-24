@@ -38,7 +38,7 @@ fetch('https://byui-cit230.github.io/weather/data/towndata.json')
       card.appendChild(alt);
       
 
-      document.querySelector('towns').appendChild(card);
+      document.querySelector('div.towns').appendChild(card);
       }
   
 }   
