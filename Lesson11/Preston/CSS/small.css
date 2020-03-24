@@ -87,6 +87,7 @@ nav {
 	display: block;
 }
 .summary p, h2 {
+    margin-left: 5px;
     color: whitesmoke;
 }
 .summary {

@@ -90,9 +90,11 @@ nav {
 	display: block;
 }
 .summary p, h2 {
+    margin-left: 5px;
     color: whitesmoke;
 }
 .summary {
+    
     box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
     position: absolute;
     float: left;

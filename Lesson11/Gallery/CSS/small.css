@@ -105,7 +105,9 @@ img {
 img[data-src] {
     filter: blur(1px);   
 }
-
+#gallery {
+    color: black;
+}
 
 
 
