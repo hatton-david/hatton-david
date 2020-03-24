@@ -25,7 +25,7 @@ fetch('https://byui-cit230.github.io/weather/data/towndata.json')
         year.textContent = 'Year Founded: ' + towns[i].yearFounded; 
         population.textContent = 'Population: ' + towns[i].currentPopulation;
         rainfall.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall;
-        image.setAttribute('src', '/Lesson11/Home/Images/' + towns[i].photo);
+        image.setAttribute('src', '/Home/Images/' + towns[i].photo);
         image.setAttribute('alt', "picture of: " + h2.textContent);
       
       card.appendChild(h2);
