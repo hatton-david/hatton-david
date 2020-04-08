@@ -19,6 +19,7 @@ header nav {
     font-size: 1em;
 }
 .nav-menu {
+  margin-bottom: 5px;
   text-align: center;
   text-decoration: none;
    width: auto;
@@ -28,6 +29,7 @@ header nav {
   display: block;
 }
 .nav-menu a {
+  padding: 2px;
   border-radius: 15px;
   height: 20px;
     display: block;
@@ -39,11 +41,11 @@ header nav {
     line-height: 1;
 }
 .nav-menu a:hover {
-  width: 160px;
   text-align: center;
   background-color: #3fb5f4;
 }
 #active {
+  padding: 3px;
   background-color: whitesmoke;
 }
   .top-section {
@@ -58,6 +60,7 @@ header nav {
   }
   
  .top-section p {
+  box-shadow: 5px 5px;
     border-color: #3fb5f4;
     background-color:rgba(192,192,192,.5);
     font-weight: 900;

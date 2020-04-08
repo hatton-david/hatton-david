@@ -1,15 +1,13 @@
 @media only screen and (min-width: 750px) {
-    .nav-menu {
-       width: auto;
-      }    
-    
-    .nav-menu a {
-        display: inline;
-    }
-    .nav-menu li {
-        display: inline;
-      }
-     
-      
-    
+  .nav-menu {
+    width: auto;
+   }    
+ 
+ .nav-menu a {
+     display: inline;
+ }
+ .nav-menu li {
+     display: inline;
+     padding-right: 10px;
+   }
 }
