@@ -8,6 +8,7 @@ body {
     background-color: #477998;
   }
   header img {
+    padding-left: 15px;
     display: inline-block;
     vertical-align: middle;
     height: auto;
@@ -92,3 +93,28 @@ header nav {
   #copy {
     float: left;
   }
+  .sections {
+    margin: 1em;
+    text-align: center;
+  }
+  .section-info {
+    padding: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  form {
+    padding: 20px;
+  }
+  .form {
+    text-align: left;
+    border-style: solid;
+    width : 450px;
+    height: 350px;
+  }
+  input{
+    margin-right: 150px;
+    float: right;
+  }
+ 
+ 
+  

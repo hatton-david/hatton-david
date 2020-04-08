@@ -8,6 +8,7 @@ body {
     background-color: #477998;
   }
   header img {
+    padding-left: 15px;
     display: inline-block;
     vertical-align: middle;
     height: auto;
@@ -60,7 +61,6 @@ header nav {
   }
   
  .top-section p {
-  box-shadow: 5px 5px;
     border-color: #3fb5f4;
     background-color:rgba(192,192,192,.5);
     font-weight: 900;

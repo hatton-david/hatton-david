@@ -8,6 +8,7 @@ body {
     background-color: #477998;
   }
   header img {
+    padding-left: 15px;
     display: inline-block;
     vertical-align: middle;
     height: auto;

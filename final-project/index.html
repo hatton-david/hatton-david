@@ -15,7 +15,7 @@
   <div>
     <header>
       <div class="tops">
-        <a href="index.html"><img src="https://cdn.glitch.com/108bfdea-6d54-4699-a5e4-96bbfc76598a%2Fsailing-ship-312417_1280%20(1).png?v=1586146662913" alt="logo" /></a>
+        <a href="index.html"><img src="images/sailing-ship-312417_1280 1.png" alt="logo" /></a>
         <nav class="top">
             <ul class="nav-menu">
               <li><a href="contact/contact.html">Contact Us</a></li>
@@ -29,6 +29,7 @@
   <main>
     <section class="top-section">
       <div> 
+        <h2>Come Join Us On The Water!</h2>
         <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
           tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At 
@@ -42,7 +43,14 @@
           voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd 
           gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
         </p>
-      <button type="button">Make a Reservation</button>
+        <div class="conditions">
+      <p>Currently: <span id="current"></span></p>
+      <p>Temperature: <span id="temperature"></span>&deg;F</p>
+      <p>Wind Chill: <span id="windchill"></span></p>
+      <p>Humidity: <span id="humidity"></span>%</p>
+      <p>Wind Speed: <span id="windspeed"></span> mph</p>
+      </div>  
+      <button onclick="window.location.href = 'schedule/schedule.html';">Make a Reservation</button>
       
       </div>
     </section>
@@ -50,17 +58,17 @@
     <div class="sections">
       <div class="section-info">
         <h2>Calendar</h2>
-        <img src="images/calendar-308517_1280.png" alt="calendar" />
-        <p>Check out what events we have coming up in the next few months.</p>
+        <a href="schedule/schedule.html"><img src="images/calendar-3170987_1280.jpg" alt="calendar" /></a>
+        <p>Check out our calendar to see what events we have coming up in the next few months.</p>
       </div>
       <div class="section-info">
         <h2>Meet Our Guides</h2>
-        <img src="images/direction-1076223_1920.png" alt="compass" />
+        <a href="guides/guides.html"><img src="images/direction-1076223_1920.png" alt="compass" /></a>
         <p>Get to know our various skilled guides who will be taking you down our rivers.</p>
         </div>
       <div class="section-info">
         <h2>Things to Do</h2>
-        <img src="images/spring-1888871_1920.jpg" alt="river" />
+        <a href="activities/activities.html"><img src="images/fishing-3635221_1280.jpg" alt="river" /></a>
         <p>See the various activities we have available for you and your Family.</p>
       </div>
     </div>   
