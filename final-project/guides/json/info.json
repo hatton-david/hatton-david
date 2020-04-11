@@ -7,7 +7,7 @@
         "exp": "45",
         "email": "janesmith@sra.com",
         "bio": 1,
-        "imageurl": ""
+        "imageurl": "https://hatton-david.github.io/final-project/guides/images/viet-nam.jpg"
       },
       {
         "name": "Bob",
@@ -16,7 +16,7 @@
         "exp": "Scout Camp 2014",
         "email": "bobfisher@sra.com",
         "bio": 1,
-        "imageurl": ""
+        "imageurl": "https://hatton-david.github.io/final-project/guides/images/viet-nam-2510985_1920%20(1).jpg"
       },
       {
         "name": "Frank",
@@ -25,7 +25,7 @@
         "exp": "15 years",
         "email": "frankfrankfurter@sra.com",
         "bio": 1,
-        "imageurl": ""
+        "imageurl": "https://drive.google.com/file/d/15IlJCycSFkhggFnlvyIhOG_TPW4j01Ny/view?usp=sharing"
       }
     ]
   }

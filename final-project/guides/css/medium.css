@@ -1,14 +1,13 @@
 @media only screen and (min-width: 820px) {
-    .nav-menu {
-       width: auto;
-      }    
-    
-    .nav-menu a {
-        display: inline;
+    h1 {
+        font-size: 3em;
     }
-    .nav-menu li {
-        display: inline;
-        padding-right: 10px;
-      }
-    
+    h2 {
+        font-size: 1.1em;
+    }
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto;
+    }  
 }

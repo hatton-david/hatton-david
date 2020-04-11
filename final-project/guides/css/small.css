@@ -104,7 +104,34 @@ header nav {
       margin: 50px auto;
       color: #8b8b8b;
   }
-
+  .bottom-section {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+main {
+    background-color: whitesmoke;
+    border: 1px solid;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.cards section {
+    margin: .25rem;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+    border: 1px solid;
+    box-shadow:0 0 25px grey;
+}
+.cards section img {
+    max-width: 100%;
+    width: 12rem;
+    height: 15rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    box-shadow:0 0 25px grey;
+}
   footer {
     border-style: solid;
     padding: 15px;
@@ -123,3 +150,4 @@ header nav {
   #copy {
     float: left;
   }
+  

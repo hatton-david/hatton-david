@@ -1,4 +1,4 @@
-const requestURL = '../';
+const requestURL = 'https://hatton-david.github.io/final-project/guides/json/info.json';
 fetch(requestURL)
     .then(function (response) {
     return response.json();
@@ -17,8 +17,8 @@ fetch(requestURL)
         let fullname = `${guide.name} ${guide.lastname}`; 
         let certification = `Certification: ${guide.certification}` 
         let exp = `Years of Experience: ${guide.exp}`;
-        let email = `Years of Experience: ${guide.email}`;
-        let bio = `Years of Experience: ${guide.bio}`;
+        let email = `email: ${guide.email}`;
+        let bio = `Bio: ${guide.bio}`;
 
       h2.textContent = fullname;
       image.setAttribute('src', guide.imageurl);
