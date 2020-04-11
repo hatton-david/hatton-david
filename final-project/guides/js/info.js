@@ -15,10 +15,10 @@ fetch(requestURL)
       let image = document.createElement('img');
       
         let fullname = `${guide.name} ${guide.lastname}`; 
-        let certification = `Certification: ${guide.certification}` 
-        let exp = `Years of Experience: ${guide.exp}`;
-        let email = `email: ${guide.email}`;
-        let bio = `Bio: ${guide.bio}`;
+        let certification = `CERTIFICATION: ${guide.certification}` 
+        let exp = `YEARS OF EXPERIENCE: ${guide.exp}`;
+        let email = `EMAIL: ${guide.email}`;
+        let bio = `BIO: ${guide.bio}`;
 
       h2.textContent = fullname;
       image.setAttribute('src', guide.imageurl);
