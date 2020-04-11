@@ -60,8 +60,8 @@ header nav {
     background-size: cover;
   }
   
- .top-section p {
-    border-color: #3fb5f4;
+  .top-section h3 {
+    border-color: black;
     background-color:rgba(192,192,192,.5);
     font-weight: 900;
     padding: 5px;
@@ -70,11 +70,41 @@ header nav {
     border-style: solid;
     text-align: center;
   }
-  button {
-    height: 30px;
-    margin-top: 30px;
+  .sections {
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 0 0 100px 0;
   }
-
+  .section-info {
+    padding-bottom: 120px;
+    vertical-align: bottom;
+    width: 300px;
+    height: 295px;
+    display: inline-block;
+    margin: 20px;
+    
+  }
+  .section-info img {
+    background-color: #eeeeee;
+    width: 100%;
+    height: 100%
+    
+  }
+  .section-info h2 {
+    color: #5f656f;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .section-info p {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      width: 245px;
+      margin: 50px auto;
+      color: #8b8b8b;
+  }
   footer {
     border-style: solid;
     padding: 15px;
