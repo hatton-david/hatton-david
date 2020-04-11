@@ -6,7 +6,7 @@
         "certification": "Rafting, Cullinary Arts, Hunting, Woodworking and First Aid",
         "exp": "45",
         "email": "janesmith@sra.com",
-        "bio": 1,
+        "bio": "frankfrankfurter@sra.com",
         "imageurl": "https://github.com/hatton-david/hatton-david.github.io/blob/master/final-project/guides/images/viet-nam.jpg"
       },
       {
@@ -15,8 +15,8 @@
         "certification": "Canoeing Boy Scout Merit Badge",
         "exp": "Scout Camp 2014",
         "email": "bobfisher@sra.com",
-        "bio": 1,
-        "imageurl": "https://hatton-david.github.io/final-project/guides/images/viet-nam-2510985_1920%20(1).jpg"
+        "bio": "frankfrankfurter@sra.com",
+        "imageurl": "https://github.com/hatton-david/hatton-david.github.io/blob/master/final-project/guides/images/rafting.jpg"
       },
       {
         "name": "Frank",
@@ -24,7 +24,7 @@
         "certification": "Rafting, Sailing",
         "exp": "15 years",
         "email": "frankfrankfurter@sra.com",
-        "bio": 1,
+        "bio": "frankfrankfurter@sra.com",
         "imageurl": "https://github.com/hatton-david/hatton-david.github.io/blob/master/final-project/guides/images/kayak.jpg"
       }
     ]
