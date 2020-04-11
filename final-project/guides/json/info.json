@@ -7,7 +7,7 @@
         "exp": "45",
         "email": "janesmith@sra.com",
         "bio": "frankfrankfurter@sra.com",
-        "imageurl": "https://github.com/hatton-david/hatton-david.github.io/blob/master/final-project/guides/images/viet-nam.jpg"
+        "imageurl": "https://hatton-david.github.io/final-project/guides/images/viet-nam.jpg"
       },
       {
         "name": "Bob",
@@ -16,7 +16,7 @@
         "exp": "Scout Camp 2014",
         "email": "bobfisher@sra.com",
         "bio": "frankfrankfurter@sra.com",
-        "imageurl": "https://github.com/hatton-david/hatton-david.github.io/blob/master/final-project/guides/images/rafting.jpg"
+        "imageurl": "https://hatton-david.github.io/final-project/guides/images/rafting.jpg"
       },
       {
         "name": "Frank",
@@ -25,7 +25,7 @@
         "exp": "15 years",
         "email": "frankfrankfurter@sra.com",
         "bio": "frankfrankfurter@sra.com",
-        "imageurl": "https://github.com/hatton-david/hatton-david.github.io/blob/master/final-project/guides/images/kayak.jpg"
+        "imageurl": "https://hatton-david.github.io/final-project/guides/images/kayak.jpg"
       }
     ]
   }
