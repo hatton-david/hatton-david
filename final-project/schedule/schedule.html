@@ -29,24 +29,68 @@
   <main>
     <section class="top-section">
       <div> 
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
-          tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At 
-          vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-          no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
-          consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
-          dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem 
-          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
-          diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
-          voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd 
-          gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-      <button type="button">Make a Reservation</button>
+        <h2>Salmon River Adventure Activities</h2>
+<p>Here are the current activities we have available at our Riggins location.</p>
+
+<table>
+  <tr>
+    <th>Rapids</th>
+    <th>Gold Panning</th> 
+    <th>Fishing</th>
+  </tr>
+  <tr>
+    <td>Length: 1 hour.</td>
+    <td>Length: 2 hours</td>
+    <td>Length: Until Dark</td>
+  </tr>
+  <tr>
+    <td>Skill Level: Intermediate - Advanced (Anyone below 18 must be acompanied by an Adult)</td>
+    <td>Skill Level: Beginner - Advanced</td>
+    <td>Skill Level: Beginner - Advanced</td>
+  </tr>
+  <tr>
+    <td>Cost: $25 Per Person</td>
+    <td>$10 Per Person</td>
+    <td>Free for All (Must bring own equptment)</td>
+  </tr>
+</table>
       
       </div>
     </section>
-
+<section class="bottom-section">
+        <form method="get" action="../contact/form.html"> 
+            
+            <fieldset>
+                <h1 class=formbox>Sign up for one of our Adventures by filling out the form below.</h1>
+             <label for="fname">Full Name:</label><br>
+             <input type="text" id="fname" name="fname" pattern="[A-Za-z ]{5,}" required><br><br>
+             <label for="email">Email:</label><br>
+             <input type="email" id="email" name="email" placeholder="something@something.com"><br><br>
+             <label for="phonenumber">Phone Number:</label><br>
+             <input type="tel" id="phonenumber" name="phonenumber" required><br><br>
+            
+                <h1 class=formbox>Choose your Adventure</h1>
+             <label for="startdate">Start Date:</label><br>
+             <input type="date" id="date" name="date"><br><br>
+             
+             <label for="adventuretype">Adventure Type:</label><br>
+             <input name="adventuretype" list="adventuretype">
+                 <datalist id="adventuretype">
+                     <option value="Rapids">
+                      <option value="Gold Panning">
+                    <option value="Fishing">
+                 </datalist><br><br>
+            <div id="comments">          
+             <label for="additional">Additional Information or Comments:</label><br>      
+                <textarea id="additional" rows="10" cols="60">
+                </textarea><br><br>
+                </div>
+             <input type="submit" value="Submit">
+             </fieldset>
+            
+           
+           </form>
+</section>
     </main> 
  <footer>  
   <p id= "copy">&copy; 2020 Salmon River Adventure - David Hatton - CIT - 230 </p>

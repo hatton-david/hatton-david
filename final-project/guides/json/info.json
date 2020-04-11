@@ -1,0 +1,31 @@
+{
+    "guides": [
+      {
+        "name": "Jane",
+        "lastname": "Smith",
+        "certification": "Rafting, Cullinary Arts, Hunting, Woodworking and First Aid",
+        "exp": "45",
+        "email": "janesmith@sra.com",
+        "bio": 1,
+        "imageurl": ""
+      },
+      {
+        "name": "Bob",
+        "lastname": "Fisher",
+        "certification": "Canoeing Boy Scout Merit Badge",
+        "exp": "Scout Camp 2014",
+        "email": "bobfisher@sra.com",
+        "bio": 1,
+        "imageurl": ""
+      },
+      {
+        "name": "Frank",
+        "lastname": "Frankfurter",
+        "certification": "Rafting, Sailing",
+        "exp": "15 years",
+        "email": "frankfrankfurter@sra.com",
+        "bio": 1,
+        "imageurl": ""
+      }
+    ]
+  }
