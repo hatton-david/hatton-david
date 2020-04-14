@@ -1,0 +1,76 @@
+body {
+    margin: 0 auto;
+    max-width: 1920px;
+  }
+  .top-section {
+    text-align:center;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url("../images/cyber-3400789_1920.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+  .top-section h1 {
+    color: whitesmoke;
+    font-size: 30px;
+  }
+ .top-section p {
+  border-color: black;
+  background-color:rgba(192,192,192,.5);
+  font-weight: 900;
+  padding: 5px;
+  margin: 0 auto;
+  width: 50%;
+  border-style: solid;
+  text-align: center;
+  }
+  .top-section h3 {
+    border-color: black;
+    background-color:rgba(192,192,192,.5);
+    font-weight: 900;
+    padding: 5px;
+    margin: 0 auto;
+    width: 50%;
+    border-style: solid;
+    text-align: center;
+    }
+    .sections {
+        text-align: center;
+        margin: 0 0 100px 0;
+      }
+      .section-info {
+        background: #8b8b8b;
+        width: 300px;
+        height: 295px;
+        display: inline-block;
+        margin: 13px;
+      }
+      .section-info img {
+        background-color: #eeeeee;
+        width: 100%;
+        
+      }
+      .section-info h2 {
+        color: black;
+        font-size: 17px;
+        font-family: Arial, sans-serif;
+        text-transform: uppercase;
+      }
+      
+      .section-info p {
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 11px;
+          width: 245px;
+          margin: 50px auto;
+          color: #8b8b8b;
+      }
+  footer {
+    border-style: solid;
+    padding: 15px;
+    height: 65px;
+    margin-top: 5px;
+    background-color: #477998;
+  }
