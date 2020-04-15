@@ -2,6 +2,28 @@ body {
     margin: 0 auto;
     max-width: 1920px;
   }
+  .animation {
+    background-color: #DCDCDC;
+    border-radius: 15px;
+    border: solid 1px;
+    width: 450px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  #box {
+    background: #ffffff;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: solid 1px;
+  }
+  .lower {
+    width: 300px;
+    margin: 0 auto;
+    padding: .5em;
+    text-align: center;
+  }
   header nav {
     padding-right: 50px;
     float: right;
@@ -94,6 +116,12 @@ body {
           width: 245px;
           margin: 50px auto;
           color: #8b8b8b;
+      }
+      .lowerButton {
+        padding-left: 10px;
+      }
+      .p {
+        color: white;
       }
   footer {
     border-style: solid;

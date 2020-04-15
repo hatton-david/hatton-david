@@ -45,3 +45,27 @@ currentPriceXTZ.onreadystatechange = function(){
   };
 };
 currentPriceXTZ.send();
+
+function openBox(element){
+	var elem = document.getElementById(element);
+	elem.style.transition = "height 0.3s linear 0s";
+	elem.style.height = "200px";
+}
+function shutBox(element){
+	var elem = document.getElementById(element);
+	elem.style.transition = "height 0.3s linear 0s";
+	elem.style.height = "0px";
+}
+function saveCrypto() {
+    if (typeof (Storage) !== "undefined") {
+        var y = document.getElementById('cryptoName');
+        localStorage.setItem("cN", y.value);
+    } else {
+        var output = "Not supported.";
+        document.getElementById("crypto").innerHTML = output;
+    }
+}
+function showCrypto() {
+    var sC = localStorage.getItem("cN");
+    document.getElementById("crypto").innerHTML = localStorage.getItem("cN");
+}

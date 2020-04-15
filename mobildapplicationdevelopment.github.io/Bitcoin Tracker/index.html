@@ -21,7 +21,7 @@
                     <ul class="nav-menu">
                         <li><a id="active" href="#Top">Home</a></li>
                         <li><a href="bitcoin/btc.html">Bitcoin</a></li>
-                        <li><a href="etherium/etherium.html">Etherium</a></li>
+                        <li><a href="etherium/etherium.html">Ethereum</a></li>
                         <li><a href="basicattentiontoken/bat.html">Basic Attention Token</a></li>
                         <li><a href="tezos/tezos.html">Tezos</a></li>
                     </ul>
@@ -33,15 +33,29 @@
               </h1>
               <h3>
                 This website was designed to give you the current price of various Crypto Currencies at any given time.<br><br> 
-                A cryptocurrency (or crypto currency) is a digital asset designed to work as a medium of exchange that uses strong cryptography to secure financial transactions, control the creation of additional units, and verify the transfer of assets. Cryptocurrencies use decentralized control as opposed to centralized digital currency and central banking systems.
+                A cryptocurrency (or crypto currency) is a digital asset designed to work as a medium of exchange that uses strong cryptography to secure financial transactions, control the creation of additional units, and verify the transfer of assets. Cryptocurrencies use decentralized control as opposed to centralized digital currency and central banking systems.<br><br>
 
-The decentralized control of each cryptocurrency works through distributed ledger technology, typically a blockchain, that serves as a public financial transaction database.
+The decentralized control of each cryptocurrency works through distributed ledger technology, typically a blockchain, that serves as a public financial transaction database.<br><br>
 
 Bitcoin, first released as open-source software in 2009, is generally considered the first decentralized cryptocurrency. Since the release of bitcoin, over 6,000 altcoins (alternative variants of bitcoin, or other cryptocurrencies) have been created.
               </h3>
             
             
             </div>
+            <h1>Keep Track of your current Favorite Crypto Currency</h1>
+            <p class="p">(Check the bottom of the page to remind you what your favorite is.)</p>
+            <div id="animation">
+              <div class="lower">
+            <button onclick="openBox('box');">Open</button>
+            <button onclick="shutBox('box');">Shut</button>
+              </div>
+            <div id="box">
+              
+              Current Favorite Crypto:  <input type="text" id="cryptoName">
+    <button type="button" onclick="saveCrypto()">Save</button><br> 
+    
+            </div>
+      </div>
           </section>
     </header>
   <main>
@@ -50,31 +64,35 @@ Bitcoin, first released as open-source software in 2009, is generally considered
     <div class="sections">
       <div class="section-info">
         <h2>Bitcoin</h2>
-        <a href=""><img src="images/crypto-currency-3130381_1920.jpg" alt="" /></a>
+        <a href="bitcoin/btc.html"><img src="images/crypto-currency-3130381_1920.jpg" alt="botcoin logo" /></a>
         <div id="btc"></div>
         </div>
         
       
       <div class="section-info">
         <h2>Etherium</h2>
-        <a href=""><img src="images/ethereum-logo-vector-1.jpg" alt="" /></a>
+        <a href="etherium/etherium.html"><img src="images/ethereum-logo-vector-1.jpg" alt="ethereum logo" /></a>
         <div id="eth"></div>
       </div>
       
       <div class="section-info">
         <h2>Basic Attention Token</h2>
-        <a href=""><img src="images/Basic-Attention-Token.jpg" alt="" /></a>
+        <a href="basicattentiontoken/bat.html"><img src="images/Basic-Attention-Token.jpg" alt="BAT logo" /></a>
         <div id="bat"></div>
       </div>
      
       <div class="section-info">
         <h2>Tezos</h2>
-        <a href=""><img src="images/20705205 (1).jpg" alt="" /></a>
+        <a href="tezos/tezos.html"><img src="images/20705205 (1).jpg" alt="tezos logo" /></a>
         <div id="xtz"></div>
       </div>
         
     </div>
 </section>
+<div class="lowerButton">
+<button type="button" onclick="showCrypto()">Show Current Favorite</button>
+<h3 id="crypto"></h3>
+</div>
     </main> 
  <footer>  
   <p id= "copy">&copy; 2020 Bitcoin Tracker - David Hatton - CIT - 261 </p>
