@@ -4,10 +4,10 @@
       }    
     
     .nav-menu a {
-        display: inline;
+        display: inline-block;
     }
     .nav-menu li {
-        display: inline;
+        display: inline-block;
       }
      
     

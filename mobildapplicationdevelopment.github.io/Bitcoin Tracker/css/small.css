@@ -53,7 +53,7 @@ body {
       line-height: 1;
   }
   .nav-menu a:hover {
-    transform: skewX(25deg); 
+    transform: skewX(20deg);
     text-align: center;
     background-color: #3fb5f4;
   }
